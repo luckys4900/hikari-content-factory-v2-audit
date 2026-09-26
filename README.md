@@ -1,5 +1,7 @@
 # HIKARI CONTENT FACTORY v2 — Audit & Architecture
 
+> **Claude Code users:** use the clean, brand-safe engineering repository [hikari-influencer-content-factory](https://github.com/luckys4900/hikari-influencer-content-factory). This repository is a historical audit record and is not the implementation workspace for Claude Code.
+
 Read-only audit and PoC-first architecture for a local, fictional adult AI character still-image → I2V pipeline.
 
 This repository is intentionally **documentation-only**. It contains no source photographs, generated adult media, face embeddings, image hashes, model weights, or executable generation workflows.
