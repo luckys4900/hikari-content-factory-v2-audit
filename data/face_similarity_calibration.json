@@ -1,0 +1,55 @@
+{
+  "ids": [
+    5,
+    8,
+    25,
+    28,
+    29,
+    44
+  ],
+  "pairwise": {
+    "count": 15,
+    "mean": 0.779889,
+    "minimum": 0.681574,
+    "p10": 0.7014256,
+    "p25": 0.7340085000000001,
+    "median": 0.780561
+  },
+  "leave_one_out": [
+    {
+      "index": 5,
+      "median": 0.715228,
+      "minimum": 0.681574
+    },
+    {
+      "index": 8,
+      "median": 0.802483,
+      "minimum": 0.681574
+    },
+    {
+      "index": 25,
+      "median": 0.829968,
+      "minimum": 0.728363
+    },
+    {
+      "index": 28,
+      "median": 0.802483,
+      "minimum": 0.715228
+    },
+    {
+      "index": 29,
+      "median": 0.78041,
+      "minimum": 0.739654
+    },
+    {
+      "index": 44,
+      "median": 0.780561,
+      "minimum": 0.692224
+    }
+  ],
+  "proposed_poc_gate": {
+    "median_similarity_to_canonical_ensemble_min": 0.747819,
+    "minimum_similarity_to_any_two_references": 0.701426,
+    "note": "Provisional calibration from six candidate images; requires validation on accepted and deliberately mismatched images before use as a hard gate."
+  }
+}

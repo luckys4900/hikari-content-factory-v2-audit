@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "status": "audit_and_design_complete",
+  "implementation_status": "not_started",
+  "source_scope": {
+    "legacy_repository_files": 44342,
+    "legacy_repository_size_gb_approx": 9.82,
+    "hikari_images_reviewed": 44,
+    "source_assets_in_repository": false
+  },
+  "hikari_classification": {
+    "canonical_candidate_indexes": [5, 8, 25, 28, 29],
+    "face_only_indexes": [4, 13, 14, 26, 27, 44],
+    "body_only_indexes": [6, 38, 39],
+    "reject_count": 30
+  },
+  "legacy_findings": [
+    "aio_q4_ram_safety_stop",
+    "source_latent_and_garment_authority",
+    "full_frame_identity_loss",
+    "tight_face_composite_artifacts",
+    "pose_reference_used_as_generation_source",
+    "contact_sheet_used_as_i2v_authority",
+    "adult_sfw_prompt_conflict",
+    "anatomy_gate_false_passes",
+    "identity_conditioning_not_productionized",
+    "local_i2v_backend_absent"
+  ],
+  "superseding_review": {
+    "target_images": 10,
+    "formal_acceptance_before_sha_anatomy_reaudit": 2,
+    "accepted_after_sha_anatomy_reaudit": 0
+  },
+  "poc": {
+    "accepted_stills_required": 1,
+    "i2v_duration_seconds": 15,
+    "i2v_candidates": 3,
+    "accepted_videos_required": 1,
+    "gui_before_poc_pass": false,
+    "batch_before_poc_pass": false,
+    "publishing_before_poc_pass": false
+  },
+  "hard_boundaries": {
+    "verified_provenance_required": true,
+    "real_person_nonconsensual_editing": false,
+    "minor_or_underage_appearing_content": false,
+    "paid_api_used_during_audit": false,
+    "model_downloaded_during_audit": false,
+    "generation_performed_during_audit": false
+  },
+  "privacy_omissions": [
+    "source_images",
+    "contact_sheets",
+    "face_embeddings",
+    "pairwise_face_matrix",
+    "image_hashes",
+    "local_user_paths",
+    "model_weights",
+    "generated_media"
+  ]
+}
+
